@@ -1314,13 +1314,17 @@ input[type=submit]:hover {
   }
   #subject {
     height: 25vh;
-    width: 60vh;
+    width: 30vh;
   }
   #fname {
-    width: 60vh;
+    width: 30vh;
   }
   #lemail {
-    width: 60vh;
+    width: 30vh;
+  }
+  
+  .success {
+  width: 30vh;
   }
 }
 /*end form*/
