@@ -270,7 +270,7 @@ header {
   padding-bottom: 50px;
   width: 100%;
   margin-top: 0px;
-  background: transparent;
+    background-image: linear-gradient(rgb(230, 230, 230), rgb(241, 241, 241), rgb(230, 230, 230));
 }
 
 @media only screen and (max-width: 768px) {
