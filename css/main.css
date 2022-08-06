@@ -1308,24 +1308,33 @@ input[type=submit]:hover {
 @media only screen and (max-width: 768px) {
   .row-form {
     display: inline;
+    margin:auto;
   }
   #fname {
     margin-bottom: 20px;
   }
   #subject {
     height: 25vh;
-    width: 30vh;
+    width: 40vh;
   }
   #fname {
-    width: 30vh;
+    width: 40vh;
   }
   #lemail {
-    width: 30vh;
+    width: 40vh;
   }
   
   .success {
   width: 30vh;
   }
+  
+  input[type=submit] {
+  background-color: rgb(52, 142, 158);
+  color: white;
+  height: 6vh;
+  width: 40vh;
+  border: none;
+}
 }
 /*end form*/
 .footer-title h3 {
