@@ -18,6 +18,10 @@ body {
   scroll-behavior: smooth;
 }
 
+*:focus {
+  outline: none;
+}
+
 ::-moz-selection { /* Code for Firefox */
   color: rgb(255, 255, 255);
   background: rgba(51, 118, 241, 0.5137254902);
