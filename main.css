@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 
-a:focus,
+*:focus,
 [style*="cursor: pointer"]:focus {
   -webkit-tap-highlight-color: transparent;
   outline: none;
