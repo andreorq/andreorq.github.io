@@ -1448,8 +1448,8 @@ margin-top: 0px;
 */
 @media only screen and (max-width: 1100px) {
   .sec13 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .card13 .main {
     font-size: 40px;
@@ -1475,8 +1475,7 @@ margin-top: 0px;
     line-height: 120%;
     margin-top: 50px;
     margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    
   }
   .sec13 .main2 {
     color: rgb(255, 255, 255);
@@ -1497,8 +1496,7 @@ margin-top: 0px;
     font-size: 14px;
     margin-top: 30px;
     margin-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+   
   }
   .sec13 .sub2 {
     color: white;
@@ -1529,8 +1527,7 @@ margin-top: 0px;
   .btns13 {
     text-align: center;
     margin-top: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
+   
   }
   .sec13 .btn13 {
     background-color: #4a3aff;
