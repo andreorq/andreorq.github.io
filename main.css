@@ -335,42 +335,26 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #060d0d;
-  /*
-  //background-color: #343A40;
-  //background-image: linear-gradient(321deg,#c084f8,#4353ff 67%,#391389 94%);
-
-  //background-color: rgb(255, 255, 255);
-
-
-  //background: linear-gradient(114deg, #2892d4 0%, #d82c46 100%);
-
-  //background-image: linear-gradient(to right,  #2892d4,#d82c46,#2892d4, #d82c46,#2892d4);
-  background-image: linear-gradient(to right,  #3191ff,#ff3838,#6625ff, #ff3e5b,#3191ff);
-
-
-
-
-  background-size: 500%;
-  background-position: 0 0;
-
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  transition: ease-in-out;
-  animation-name: gradients;
-  */
+  
 }
 
-/*
-@keyframes gradients {
-  0%   {background-position: 0 0;}
-  25% {background-position: 50% 0;}
-  50% {background-position: 90% 0;}
-  60% {background-position: 60%;}
-  75% {background-position: 40%;}
-  100%  {background-position: 0 0;}
+
+.header::before {
+  content: "";
+  background-image: url(../images/banner4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-*/
+
+
+
 /*scroll button*/
 #scrollBtn {
   width: 45px;
