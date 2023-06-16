@@ -373,6 +373,8 @@ header {
   border: none;
   outline: none;
   background-color: rgba(238, 238, 238, 0.9647058824);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;
   color: white;
   cursor: pointer;
