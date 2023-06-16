@@ -385,7 +385,6 @@ header {
 }
 
 #scrollBtn:hover {
-  background-color: rgba(223, 223, 223, 0.9647058824);
   translate: 0px -5px;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;
 }
