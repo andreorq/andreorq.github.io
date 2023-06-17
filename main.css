@@ -419,6 +419,12 @@ border-radius: 5px;
   margin: 0px;
   padding: 10px 20px 10px 20px;
   display: none;
+  transition: all 0.2s ease-in-out;
+}
+
+#cookie-policy:hover {
+  translate: 0px -2px;
+
 }
 
 .hidden {
@@ -438,6 +444,11 @@ font-size: 13px;
 margin: 0px;
 padding: 0px;
 }
+
+#cookie-policy p a:hover {
+  text-decoration: none;
+}
+
 
 #close-cookie {
   display: flex;
