@@ -60,3 +60,44 @@ window.addEventListener('scroll', function() {
   header.style.backgroundPositionY = moveAmount + 'px';
 });
 
+
+
+
+// Check if the cookie policy has been accepted
+function isCookiePolicyAccepted() {
+  return localStorage.getItem('cookieAccepted') === 'true';
+}
+
+// Set the cookie policy as accepted
+function setCookiePolicyAccepted() {
+  localStorage.setItem('cookieAccepted', 'true');
+}
+
+// Close the cookie policy message
+function closeCookiePolicy(event) {
+  event.preventDefault();
+  var cookiePolicy = document.getElementById('cookie-policy');
+  cookiePolicy.style.display = 'none';
+  setCookiePolicyAccepted();
+}
+
+// Show the cookie policy message after a delay
+function showCookiePolicyDelayed() {
+  var cookiePolicy = document.getElementById('cookie-policy');
+  setTimeout(function() {
+    cookiePolicy.style.display = 'flex';
+  }, 3000); // 5000 milliseconds = 5 seconds
+}
+
+// Handle the click event on the close link
+document.getElementById('close-cookie').addEventListener('click', closeCookiePolicy);
+
+// Show the cookie policy message only if it has not been accepted after a delay
+document.addEventListener('DOMContentLoaded', function() {
+  if (!isCookiePolicyAccepted()) {
+    showCookiePolicyDelayed();
+  }
+});
+
+
+
