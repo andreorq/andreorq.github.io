@@ -359,8 +359,6 @@ header {
 }
 
 
-
-
 /*scroll button*/
 #scrollBtn {
   width: 45px;
@@ -392,6 +390,63 @@ header {
 #scrollBtn img {
   max-width: 15px;
 }
+
+
+
+
+#cookie-policy {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f0f0f0;
+  background-color: #0000006b;
+color: rgb(255, 255, 255);
+font-family: Helvetica, Arial,  sans-serif;
+font-size: 13px;
+font-weight: lighter;
+border-radius: 5px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  padding: 10px;
+  text-align: center;
+  z-index: 100;
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+  display: fl;
+}
+
+.hidden {
+  display: none;
+}
+
+#cookie-policy p {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+#cookie-policy p a {
+  color: rgb(255, 255, 255);
+font-family: Helvetica, Arial,  sans-serif;
+font-size: 13px;
+margin: 0px;
+padding: 0px;
+}
+
+#close-cookie {
+  //display: flex;
+  //align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+
+
+
+
+
 
 /*end scroll button*/
 .animate {
@@ -1847,8 +1902,9 @@ margin-top: 0px;
     font-size: 14px;
     color: white;
   }
-  .margsec1foot {
-    margin-bottom: 25px;
+   .margsec1foot {
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
   .copyfoot p {
     user-zoom: none;
