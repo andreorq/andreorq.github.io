@@ -1,3 +1,4 @@
+  color: rgba(255, 255, 255, 0.596);
 html {
   scroll-behavior: smooth;
 }
@@ -170,7 +171,7 @@ nav2.sticky {
 
 .nav-menu a {
   color: #111;
-  color: rgba(255, 255, 255, 0.596);
+  color: rgba(255, 255, 255, 0.849);
   font-size: 0.82em;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
