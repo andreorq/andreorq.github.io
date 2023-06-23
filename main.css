@@ -1716,8 +1716,9 @@ margin-top: 0px;
     padding-bottom: 100px;
   }
   .bluecard2 {
-    background: linear-gradient(320deg, #094af1 0%, #183bf5 100%);
-    background: linear-gradient(320deg, #094af1 0%, #4a3aff 100%);
+    /*background: linear-gradient(320deg, #094af1 0%, #183bf5 100%);
+    background: linear-gradient(320deg, #094af1 0%, #4a3aff 100%);*/
+    background: linear-gradient(60deg, #01ccf9 -44.04%, #183bf5 33.31%, #1759ff 101.07%), #094af1;
     padding: 5vw;
     display: flex;
     justify-content: space-between;
