@@ -101,11 +101,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-function scrollToSection(sectionId) {
-      event.preventDefault();
+function scrollToSection(event, sectionId) {
+    event.preventDefault();
     var section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
-        history.replaceState(null, '', window.location.pathname + '#' + sectionId);
+        history.replaceState(null, '', '#' + sectionId);
     }
 }
