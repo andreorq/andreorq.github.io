@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function scrollToSection(event, sectionId) {
-    event.preventDefault();
+    event.stopPropagation();
     var section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
