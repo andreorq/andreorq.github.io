@@ -23,6 +23,13 @@ body {
   background: rgba(51, 118, 241, 0.5137254902);
 }
 
+@viewport {
+  zoom: 1.0 !important;
+  user-zoom: fixed !important;
+  max-zoom: 1.0 !important;
+  min-zoom: 1.0 !important;
+}
+
 ::selection {
   color: rgb(255, 255, 255);
   background: rgba(51, 118, 241, 0.514);
