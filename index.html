@@ -84,7 +84,7 @@
 <script src="r.js"></script>
 
 
-            <!--<script type="text/javascript">
+            <script type="text/javascript">
 
                 window.addEventListener("scroll", function() {
                     var nav = document.querySelector("nav");
@@ -95,7 +95,7 @@
                     var nav = document.querySelector("nav");
                     nav.classList.toggle("sticky2", window.scrollY > 680);
                 })
-            </script>-->
+            </script>
 
 
 
@@ -122,7 +122,22 @@
 
 </div>
 
+<script>
+     const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach((n) => {
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  });
+});
+</script>
  
 
 <!--<script type="text/javascript">
