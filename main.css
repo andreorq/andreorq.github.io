@@ -1694,8 +1694,8 @@ margin-top: 0px;
 }
 @media only screen and (max-width: 769px) {
   .book-calendly {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 50px;
   }
