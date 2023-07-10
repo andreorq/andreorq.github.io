@@ -1694,8 +1694,8 @@ margin-top: 0px;
 }
 @media only screen and (max-width: 769px) {
   .book-calendly {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 30px;
     padding-bottom: 50px;
   }
@@ -1723,9 +1723,9 @@ margin-top: 0px;
     color: rgba(2, 2, 2, 0.8588235294);
     font-weight: bold;
   }
-  .calendly-inline-widget {
+  /*.calendly-inline-widget {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;
-  }
+  }*/
 }
 /*bluecard*/
 @media only screen and (min-width: 769px) {
