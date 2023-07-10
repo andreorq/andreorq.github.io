@@ -1669,6 +1669,11 @@ margin-top: 0px;
     padding-top: 80px;
     padding-bottom: 100px;
   }
+
+    .calendly-inline-widget {
+    min-width:320px;height:685px;
+  }
+  
   .book-calendly h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 35px;
@@ -1723,9 +1728,9 @@ margin-top: 0px;
     color: rgba(2, 2, 2, 0.8588235294);
     font-weight: bold;
   }
-  /*.calendly-inline-widget {
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;
-  }*/
+  .calendly-inline-widget {
+    min-width:320px;height:685px;
+  }
 }
 /*bluecard*/
 @media only screen and (min-width: 769px) {
