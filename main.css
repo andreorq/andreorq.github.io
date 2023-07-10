@@ -1712,6 +1712,8 @@ margin-top: 0px;
     text-align: center;
     margin-bottom: 30px;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .book-calendly p {
     font-family: "roboto";
@@ -1721,6 +1723,8 @@ margin-top: 0px;
     color: rgba(51, 51, 51, 0.8588235294);
     letter-spacing: 0.2px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .book-calendly p span {
     font-family: "roboto";
@@ -1729,7 +1733,9 @@ margin-top: 0px;
     font-weight: bold;
   }
   .calendly-inline-widget {
-    min-width:320px;height:985px;
+    min-width:320px;height:1000px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 /*bluecard*/
