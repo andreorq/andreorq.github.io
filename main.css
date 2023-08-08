@@ -171,7 +171,7 @@ nav2.sticky {
   background-color: rgba(255, 255, 255, 0.952);
   background-color: #00000069;
   border-top: 0.1px solid rgba(255, 255, 255, 0.103);
-  border-bottom: 0.1px solid rgba(255, 255, 255, 0.103)
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.103);
  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   z-index: 2;  
