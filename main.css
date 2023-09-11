@@ -1408,6 +1408,10 @@ padding: 0px;
 .card13-col2 {
   display: flex;
 }
+.sec13 .sub span {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
 
 @media only screen and (max-width: 769px) {
   .card13-col2 {
