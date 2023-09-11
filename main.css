@@ -198,32 +198,11 @@ nav2.sticky {
   text-decoration: none;
 }
 
- .nav-item1 a {
-  padding: 20px 170px 20px 170px;
-  /*border-bottom: 0.2px solid rgba(255, 255, 255, 0.062);*/
-}
 
-.nav-item2 a {
-  padding: 20px 170px 20px 170px;
-  /*border-bottom: 0.2px solid rgba(255, 255, 255, 0.062);*/
-
-}
-
-.nav-item3 a {
-  padding: 20px 164px 20px 164px;
-  /*border-bottom: 0.2px solid rgba(255, 255, 255, 0.062);*/
-
-}
-
-.nav-item4 a {
-  padding: 20px 147px 20px 147px;
-
-}
 
 .nav-menu a:hover {
   color: rgba(17, 17, 17, 0.753);
   color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.062);
 
 }
 
