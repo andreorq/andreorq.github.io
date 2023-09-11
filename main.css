@@ -2302,6 +2302,7 @@ margin-top: 0px;
 @media only screen and (max-width: 769px) {
   .privacy img {
     padding-left: 20px;
+    max-width: 140px;
   }
   .privacy {
     padding-left: 20px;
