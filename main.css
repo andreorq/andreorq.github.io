@@ -198,9 +198,33 @@ nav2.sticky {
   text-decoration: none;
 }
 
+ .nav-item1 a {
+  padding: 20px 200px 20px 200px;
+  /*border-bottom: 0.2px solid rgba(255, 255, 255, 0.062);*/
+}
+
+.nav-item2 a {
+  padding: 20px 200px 20px 200px;
+  /*border-bottom: 0.2px solid rgba(255, 255, 255, 0.062);*/
+
+}
+
+.nav-item3 a {
+  padding: 20px 194px 20px 194px;
+  /*border-bottom: 0.2px solid rgba(255, 255, 255, 0.062);*/
+
+}
+
+.nav-item4 a {
+  padding: 20px 177px 20px 177px;
+
+}
+
 .nav-menu a:hover {
   color: rgba(17, 17, 17, 0.753);
   color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.062);
+
 }
 
 .hamburger {
