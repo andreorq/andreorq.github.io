@@ -1213,6 +1213,10 @@ padding: 0px;
   .sec24 .main {
     margin-bottom: 40px;
   }
+.subcard24 {
+  cursor: none;
+}
+  
 }
 .cards24 h1 {
   font-family: Helvetica, Arial, sans-serif;
