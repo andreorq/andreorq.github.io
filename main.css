@@ -360,7 +360,7 @@ nav2.sticky {
   }
 }
 header {
-  background: url(../images/banner07.png);
+  background: url(../images/banner08.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #060d0d;
@@ -370,7 +370,7 @@ header {
 
 .header::before {
   content: "";
-  background-image: url(../images/banner07.png);
+  background-image: url(../images/banner08.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
