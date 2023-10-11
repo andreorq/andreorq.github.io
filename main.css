@@ -437,7 +437,7 @@ border-radius: 5px;
   text-align: center;
   z-index: 100;
   margin: 0px;
-  padding: 10px 13px 10px 20px;
+  padding: 10px 15px 10px 20px;
   display: none;
   transition: all 0.2s ease-in-out;
 }
