@@ -532,6 +532,11 @@ padding: 0px;
   
 }
 
+.popup-content h1 {
+  font-size: 17px;
+  color: black;
+}
+
 @media only screen and (max-width: 769px) {
   .popup-content {
     max-height: 80%; 
