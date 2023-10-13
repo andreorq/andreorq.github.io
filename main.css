@@ -516,8 +516,9 @@ padding: 0px;
 }
 
 .popup-content {
-  background: #ffffff;
-  
+    background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   padding: 45px 20px 20px 30px;
   border-radius: 10px;
   
