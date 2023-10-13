@@ -109,3 +109,29 @@ function scrollToSection(event, sectionId) {
         section.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const popupLinks = document.querySelectorAll(".popup-link");
+  popupLinks.forEach(link => {
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
+      const popupId = this.getAttribute("data-popup");
+      const popup = document.getElementById(popupId);
+      popup.style.display = "flex";
+    });
+  });
+
+  const closeButtons = document.querySelectorAll(".popup-close");
+  closeButtons.forEach(button => {
+    button.addEventListener("click", function() {
+      const popup = this.closest(".popup");
+      popup.style.display = "none";
+    });
+  });
+});
+
