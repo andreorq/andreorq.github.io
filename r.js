@@ -115,6 +115,27 @@ function scrollToSection(event, sectionId) {
 
 
 
+/*document.addEventListener("DOMContentLoaded", function() {
+  const popupLinks = document.querySelectorAll(".popup-link");
+  popupLinks.forEach(link => {
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
+      const popupId = this.getAttribute("data-popup");
+      const popup = document.getElementById(popupId);
+      popup.style.display = "flex";
+    });
+  });
+
+  const closeButtons = document.querySelectorAll(".popup-close");
+  closeButtons.forEach(button => {
+    button.addEventListener("click", function() {
+      const popup = this.closest(".popup");
+      popup.style.display = "none";
+    });
+  });
+});*/
+
+
 document.addEventListener("DOMContentLoaded", function() {
   const popupLinks = document.querySelectorAll(".popup-link");
   popupLinks.forEach(link => {
@@ -133,5 +154,16 @@ document.addEventListener("DOMContentLoaded", function() {
       popup.style.display = "none";
     });
   });
+
+  // Add a click event listener to the document to close the popup when clicking outside of it.
+  document.addEventListener("click", function(e) {
+    const popups = document.querySelectorAll(".popup");
+    popups.forEach(popup => {
+      if (e.target !== popup && !popup.contains(e.target)) {
+        popup.style.display = "none";
+      }
+    });
+  });
 });
+
 
