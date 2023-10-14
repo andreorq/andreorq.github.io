@@ -138,19 +138,23 @@ function scrollToSection(event, sectionId) {
 
 
 
-
 document.addEventListener("DOMContentLoaded", function() {
   const popupLinks = document.querySelectorAll(".popup-link");
+  const closeButtons = document.querySelectorAll(".popup-close");
+  const popups = document.querySelectorAll(".popup");
+
+  let shouldClosePopup = true;
+
   popupLinks.forEach(link => {
     link.addEventListener("click", function(e) {
       e.preventDefault();
       const popupId = this.getAttribute("data-popup");
       const popup = document.getElementById(popupId);
       popup.style.display = "flex";
+      shouldClosePopup = true;
     });
   });
 
-  const closeButtons = document.querySelectorAll(".popup-close");
   closeButtons.forEach(button => {
     button.addEventListener("click", function() {
       const popup = this.closest(".popup");
@@ -158,24 +162,23 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  const popups = document.querySelectorAll(".popup");
-
+  // Add a click event listener to close the popup when clicking outside of the popup.
   document.addEventListener("click", function(e) {
     popups.forEach(popup => {
-      if (!popup.contains(e.target) && e.target !== popup) {
+      if (!popup.contains(e.target) && e.target !== popup && shouldClosePopup) {
         popup.style.display = "none";
       }
     });
   });
 
+  // Prevent the click event from propagating to the document when clicking on popup content.
   popups.forEach(popup => {
     popup.querySelector(".popup-content").addEventListener("click", function(e) {
       e.stopPropagation();
+      shouldClosePopup = false;
     });
   });
 });
-
-
 
 
 
