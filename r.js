@@ -155,15 +155,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  // Add a click event listener to the document to close the popup when clicking outside of it.
+  // Add a click event listener to close the popup when clicking outside of the popup content.
   document.addEventListener("click", function(e) {
-    const popups = document.querySelectorAll(".popup");
-    popups.forEach(popup => {
-      if (e.target !== popup && !popup.contains(e.target)) {
+    if (!e.target.classList.contains("popup-content")) {
+      const popups = document.querySelectorAll(".popup");
+      popups.forEach(popup => {
         popup.style.display = "none";
-      }
-    });
+      });
+    }
   });
 });
-
-
