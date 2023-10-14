@@ -136,7 +136,7 @@ function scrollToSection(event, sectionId) {
 });*/
 
 
- document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
   const popupLinks = document.querySelectorAll(".popup-link");
   popupLinks.forEach(link => {
     link.addEventListener("click", function(e) {
@@ -155,13 +155,19 @@ function scrollToSection(event, sectionId) {
     });
   });
 
-  // Add a click event listener to close the popup when clicking outside of the popup.
   document.addEventListener("click", function(e) {
     const popups = document.querySelectorAll(".popup");
     popups.forEach(popup => {
       if (!popup.contains(e.target) && e.target !== popup) {
         popup.style.display = "none";
       }
+    });
+  });
+
+  const popupContents = document.querySelectorAll(".popup-content");
+  popupContents.forEach(popupContent => {
+    popupContent.addEventListener("click", function(e) {
+      e.stopPropagation();
     });
   });
 });
