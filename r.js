@@ -115,27 +115,6 @@ function scrollToSection(event, sectionId) {
 
 
 
-/*document.addEventListener("DOMContentLoaded", function() {
-  const popupLinks = document.querySelectorAll(".popup-link");
-  popupLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-      e.preventDefault();
-      const popupId = this.getAttribute("data-popup");
-      const popup = document.getElementById(popupId);
-      popup.style.display = "flex";
-    });
-  });
-
-  const closeButtons = document.querySelectorAll(".popup-close");
-  closeButtons.forEach(button => {
-    button.addEventListener("click", function() {
-      const popup = this.closest(".popup");
-      popup.style.display = "none";
-    });
-  });
-});*/
-
-
 document.addEventListener("DOMContentLoaded", function() {
   const popupLinks = document.querySelectorAll(".popup-link");
   popupLinks.forEach(link => {
@@ -154,14 +133,29 @@ document.addEventListener("DOMContentLoaded", function() {
       popup.style.display = "none";
     });
   });
+});
 
-  // Add a click event listener to close the popup when clicking outside of the popup (except the content area).
-  document.addEventListener("click", function(e) {
-    const popups = document.querySelectorAll(".popup");
-    popups.forEach(popup => {
-      if (!popup.contains(e.target) && !e.target.classList.contains("popup")) {
-        popup.style.display = "none";
-      }
+
+  const popups = document.querySelectorAll(".popup");
+  popups.forEach(popup => {
+    popup.addEventListener("click", function() {
+      this.style.display = "none";
+    });
+
+    const popupContent = popup.querySelector(".popup-content");
+    popupContent.addEventListener("click", function(e) {
+      e.stopPropagation(); 
+      this.closest(".popup").style.display = "flex";
     });
   });
 });
+With this code, clicking on the .popup element will hide it, and clicking on the .popup-content area will set the display to "flex."
+
+
+
+
+
+
+
+
+
