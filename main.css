@@ -1271,12 +1271,12 @@ cursor: pointer;
 
 .sec24 img {
   cursor: pointer;
-  max-width: 50px;
+  max-width: 100px;
   box-sizing: border-box;
   transition: all 0.1s ease-in-out;
   background: white;
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   margin-top: 10px;
 }
 
