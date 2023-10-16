@@ -1354,7 +1354,7 @@ cursor: pointer;
 }
 .subcard24:hover img {
   translate: 0px -3px;
-  filter: brightness(200%);
+  filter: brightness(150%);
 }
 
 .subcard24:hover {
