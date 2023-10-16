@@ -1274,6 +1274,7 @@ cursor: pointer;
   max-width: 50px;
   box-sizing: border-box;
   transition: all 0.1s ease-in-out;
+  background: white;
   margin-top: 10px;
 }
 
