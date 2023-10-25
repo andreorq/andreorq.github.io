@@ -1487,7 +1487,7 @@ cursor: pointer;
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
     transition: all 0.2s ease-in-out;
   }
   .sec13 .btn132:hover {
@@ -1769,7 +1769,7 @@ margin-top: 0px;
     font-size: 14px;
     margin-top: 20px;
     transition: all 0.2s ease-in-out;
-    
+    margin-left: 5px;
   }
   .sec13 .btn132:hover {
     background-color: rgba(255, 255, 255, 0.938);
