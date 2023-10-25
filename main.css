@@ -333,9 +333,9 @@ nav2.sticky {
   }
   .nav-btn {
     background-color: white;
-    padding: 15px 23px;
+    padding: 16px 28px;
     color: #111;
-    border-radius: 3px;
+    border-radius: 30px;
     font-weight: 500;
     transition: all 0.1s ease-in-out;
   }
@@ -1465,8 +1465,8 @@ cursor: pointer;
   .sec13 .btn13 {
     background-color: #4a3aff;
     background: linear-gradient(320deg, #151DB0 0%, #4a3aff 100%);
-    padding: 16px 34px;
-    border-radius: 3px;
+    padding: 19px 40px;
+    border-radius: 30px;
     color: #ffffff;
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
@@ -1481,8 +1481,8 @@ cursor: pointer;
   .sec13 .btn132 {
     background-color: transparent;
     background-color: white;
-    padding: 15px 33px;
-    border-radius: 3px;
+    padding: 19px 40px;
+    border-radius: 30px;
     color: #000000;
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
@@ -1745,14 +1745,14 @@ margin-top: 0px;
   .sec13 .btn13 {
     background-color: #4a3aff;
     background: linear-gradient(320deg, #151DB0 0%, #4a3aff 100%);
-    padding: 15px 33px;
-    border-radius: 3px;
+    padding: 19px 40px;
+    border-radius: 30px;
     color: #ffffff;
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     transition: all 0.2s ease-in-out;
-    display: block;
+    
   }
   .sec13 .btn13:hover {
     background-color: #2435f0;
@@ -1761,15 +1761,15 @@ margin-top: 0px;
   .sec13 .btn132 {
     background-color: transparent;
     background-color: white;
-    padding: 15px 33px;
-    border-radius: 3px;
+    padding: 19px 40px;
+    border-radius: 30px;
     color: #000000;
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     margin-top: 20px;
     transition: all 0.2s ease-in-out;
-    display: block;
+    
   }
   .sec13 .btn132:hover {
     background-color: rgba(255, 255, 255, 0.938);
