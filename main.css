@@ -1685,7 +1685,7 @@ margin-top: 0px;
   .sec13 .main {
     color: rgb(255, 255, 255);
     font-size: 35px;
-    text-align: left;
+    text-align: center;
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
     line-height: 120%;
@@ -1707,7 +1707,7 @@ margin-top: 0px;
   .sec13 .sub {
     color: rgba(255, 255, 255, 0.8784313725);
     font-family: "roboto";
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     margin-top: 30px;
     margin-bottom: 0px;
