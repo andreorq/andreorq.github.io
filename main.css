@@ -1685,12 +1685,14 @@ margin-top: 0px;
   .sec13 .main {
     color: rgb(255, 255, 255);
     font-size: 35px;
-    text-align: center;
+    text-align: left;
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
     line-height: 120%;
     margin-top: 50px;
     margin-bottom: 10px;
+    margin-left: 20px;
+
   }
   .sec13 .main2 {
     color: rgb(255, 255, 255);
