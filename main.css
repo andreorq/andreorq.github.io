@@ -2227,14 +2227,13 @@ opacity: 0.9;
   display: block;
   margin-bottom: 10px; 
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 14px; 
   color: #000000;
   color: rgba(255, 255, 255, 0.808);
   font-family: 'poppins' ,Helvetica, Arial,  sans-serif;
   line-height: 35px;
   text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-thickness: 2px; 
+  text-decoration-thickness: 2px; 
    text-decoration-color: rgba(255, 255, 255, 0.808);
     transition: all 0.2s ease-in-out;
 }
@@ -2255,6 +2254,7 @@ opacity: 0.9;
   color: #2724cf;
   color: #2c29ec;
   color: #4538ff;
+  color: white;
 }
 
 
