@@ -2214,7 +2214,7 @@ opacity: 0.9;
 
 
 .sec26-4 {
-  display: block;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 869px) {
