@@ -963,7 +963,7 @@ cursor: pointer;
 @media only screen and (max-width: 769px) {
   .sec31 .image-div img {
     display: block;
-  max-width: 80%;
+  max-width: 90%;
    height: auto;
    padding-top: 100px;
    margin: auto;
