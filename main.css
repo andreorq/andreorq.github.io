@@ -855,7 +855,7 @@ overflow-x: hidden;
 }
 
 .sec31  .big-h1 h1 {
-  font-size: 25px;
+  font-size: 30px;
   color: #ffffff;
   text-align: left;
   font-family: 'roboto',Helvetica, Arial, sans-serif;
@@ -864,7 +864,7 @@ overflow-x: hidden;
 margin-left: 0vw;
 margin-bottom: 40px;
 margin-top: 30px;
-
+font-weight: lighter;
 text-transform: uppercase;
 }
 
