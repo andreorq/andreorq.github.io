@@ -916,6 +916,13 @@ text-transform: uppercase;
    color: #ebebeb;
   font-family: 'roboto', Helvetica, Arial, sans-serif;
 text-align: left;
+line-height: 23px;
+}
+
+.sec31 .border-top-p p span {
+  font-weight: bold;
+  font-family:  Helvetica, Arial, sans-serif;
+  color: #ffffff;
 
 }
 
