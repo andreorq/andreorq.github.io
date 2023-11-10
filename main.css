@@ -1006,6 +1006,201 @@ cursor: pointer;
 
 
 
+.sec33 {
+
+  text-align: left;
+  margin: 200px 0vw 100px 0px;
+ padding-top: 120px;
+ padding-bottom: 170px;
+ padding-left: 6vw;
+ padding-right: 0vw;
+background-color: rgb(37, 34, 144);
+ background-color: #2828FF;
+ background-color: rgb(33, 33, 33);
+ background: linear-gradient(to bottom, rgb(33, 33, 33), #19196e , rgb(33, 33, 33)  );
+
+ display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+overflow-x: hidden;
+}
+
+@media only screen and (max-width: 769px) {
+  .sec33 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 969px) {
+  .sec33 {
+    display: block;
+    padding-right: 6vw;
+  }
+}
+
+
+
+.sec33  .big-h133 h1 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+  font-family: 'roboto',Helvetica, Arial, sans-serif;
+  line-height: 45px;
+  
+margin-left: 0vw;
+margin-bottom: 40px;
+margin-top: 30px;
+font-weight: lighter;
+text-transform: uppercase;
+}
+
+
+
+.card33st {
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.circle-list33 {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0vw;
+}
+
+.circle-list33 li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  color: white;
+  color: #ebebeb;
+    font-family:'roboto','Space Grotesk', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.circle-bullet33 {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #2828FF;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+
+.sec33 .border-top-p33 p {
+  padding-top: 10px;
+  margin-top: 10px;
+ /*margin-left: 45%;
+  margin-right: 15%;*/
+   margin-left: 0vw;
+  margin-right: 0vw;
+  font-size: 16px;
+  color: #c4c4c4;
+   color: #ebebeb;
+  font-family: 'roboto', Helvetica, Arial, sans-serif;
+text-align: left;
+line-height: 23px;
+
+}
+
+.sec33 .border-top-p33 p span {
+  font-weight: bold;
+  font-family:  Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.card33btn {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+background-color: rgba(0, 0, 0, 0.918);
+background-color: rgb(255, 255, 255);
+cursor: pointer;
+  padding: 18px 40px 18px 40px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+  transform-origin: left center;
+
+}
+
+
+.card33btn:hover {
+  
+  background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.sec33 .border33 {
+  border-top: 1px solid #ffe196;
+  border-top: 1px solid #fce8b565;
+  border-top: 1px solid rgba(68, 68, 68, 0.719);
+  border-top: 1px solid #ffffff2f;
+
+  margin-left: 0vw;
+  margin-right: 0vw;
+ /* margin-left: 45%;
+  margin-right: 15%;*/
+  margin-bottom: 20px;
+}
+
+.sec33 .image-div33 img {
+   display: block;
+ max-width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 0;
+
+}
+
+.sec33 .image-div33 {
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 769px) {
+  .sec33 .image-div33 img {
+    display: block;
+  max-width: 90%;
+   height: auto;
+   margin: auto;
+   
+ }
+}
+
+
+
+#scaling-image33 {
+  transform-origin: center;
+  animation: scaleAnimation 3s infinite alternate ease-in-out;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 
