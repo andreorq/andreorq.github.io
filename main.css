@@ -996,7 +996,7 @@ cursor: pointer;
 
 #scaling-image {
   transform-origin: center;
-  animation: scaleAnimation 3s infinite alternate ease-in-out;
+  animation: scaleAnimation 4s infinite alternate ease-in-out;
 }
 
 @keyframes scaleAnimation {
@@ -1190,7 +1190,7 @@ cursor: pointer;
 
 #scaling-image33 {
   transform-origin: center;
-  animation: scaleAnimation 3s infinite alternate ease-in-out;
+  animation: scaleAnimation 4s infinite alternate ease-in-out;
 }
 
 @keyframes scaleAnimation {
