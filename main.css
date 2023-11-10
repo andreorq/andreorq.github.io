@@ -965,11 +965,16 @@ cursor: pointer;
 }
 
 .sec31 .image-div img {
-   display: block;
- max-width: 80%;
+  display: block;
+  max-width: 80%;
   height: auto;
   margin: auto;
   padding: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sec31 .image-div img:hover {
+  filter: brightness(150%);
 }
 
 .sec31 .image-div {
@@ -1159,7 +1164,11 @@ cursor: pointer;
   height: auto;
   margin: auto;
   padding: 0;
+  transition: all 0.3s ease-in-out;
+}
 
+.sec33 .image-div33 img:hover {
+  filter: brightness(150%);
 }
 
 .sec33 .image-div33 {
