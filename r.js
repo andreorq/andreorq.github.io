@@ -1,17 +1,6 @@
 
 
 
-  window.addEventListener("scroll", function() {
-        var nav = document.querySelector("nav2");
-        nav.classList.toggle("sticky", window.scrollY > 4350);
-    })
-
-    window.addEventListener("scroll", function() {
-        var nav = document.querySelector("nav2");
-        nav.classList.toggle("sticky2", window.scrollY > 680);
-    })
-
-
 var mybutton = document.getElementById("scrollBtn");
 
 window.onscroll = function() {
