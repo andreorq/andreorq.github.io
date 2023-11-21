@@ -1620,10 +1620,19 @@ padding: 70px 7vw 70px 7vw;
   grid-template-columns: 1fr 1fr 1fr ; 
   gap: 40px; 
   text-align: left;
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 100px;
   margin-left: 3vw;
   margin-right: 3vw;
+}
+
+.subcards2436 .main1 {
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 120px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1632,8 +1641,6 @@ padding: 70px 7vw 70px 7vw;
     grid-template-columns: 1fr 1fr 1fr ; 
     gap: 20px; 
     text-align: left;
-    padding-top: 120px;
-    padding-bottom: 100px;
     margin-left: 0vw;
     margin-right: 0vw;
   }
@@ -1645,8 +1652,6 @@ padding: 70px 7vw 70px 7vw;
     grid-template-columns: 1fr 1fr 1fr ; 
     gap: 40px; 
     text-align: left;
-    padding-top: 120px;
-    padding-bottom: 100px;
     margin-left: 0vw;
     margin-right: 0vw;
   }
@@ -1736,6 +1741,7 @@ padding: 70px 7vw 70px 7vw;
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
+  color: rgb(41, 41, 41);
 }
 
 .grid-container36 h1 {
