@@ -1708,7 +1708,7 @@ padding: 70px 7vw 70px 7vw;
 
 .subcard2436 {
   background-color: rgba(0, 0, 0, 0.5019607843);
-  cursor: pointer;
+  cursor: default;
   padding: 10px 30px 30px 30px;
   border-radius: 10px;
   z-index: 1;
