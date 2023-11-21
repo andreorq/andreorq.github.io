@@ -1014,7 +1014,7 @@ cursor: pointer;
 .sec33 {
 
   text-align: left;
-  margin: 200px 0vw 100px 0px;
+  margin: 100px 0vw 100px 0px;
  padding-top: 120px;
  padding-bottom: 170px;
  padding-left: 6vw;
@@ -1603,7 +1603,7 @@ padding: 70px 7vw 70px 7vw;
 @media only screen and (max-width: 1000px) {
   .sec36 {
     
-  padding: 20px 7vw 20px 7vw;
+  padding: 70px 20px 70px 20px;
   
   }
 }
