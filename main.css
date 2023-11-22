@@ -1829,7 +1829,8 @@ padding: 70px 7vw 70px 7vw;
 }
 
 .grid-item36:hover img {
-  translate: 0px -3px;
+ /* translate: 0px -3px;*/
+  transform: scale(1.2);
   
 }
 
