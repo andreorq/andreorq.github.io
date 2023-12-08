@@ -1662,7 +1662,7 @@ padding: 70px 7vw 70px 7vw;
   
 }
 
-.cards2436 .special {
+/*.cards2436 .special {
   grid-column: span 3; 
   align-self: center; 
   justify-self: center;
@@ -1680,7 +1680,7 @@ padding: 70px 7vw 70px 7vw;
     margin-right: 0vw;
     margin-top: 0px
   }
-}
+}*/
 
 .cards2436 img {
   cursor: pointer;
