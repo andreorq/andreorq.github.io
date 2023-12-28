@@ -1821,10 +1821,11 @@ padding: 70px 7vw 70px 7vw;
   width: 35px;
   height: 35px;
   padding: 17px;
-  border-radius: 50%;
+  border-radius: 20%;
   background-color: rgb(34, 118, 197); /* Adjust as needed */
   margin-bottom: 30px;
    background: linear-gradient(to left, #e2d3b6, rgb(198, 198, 221));
+   background: linear-gradient(to left, #b6c9e2, rgb(198, 198, 221));
   transition: all 0.2s ease-in-out;
 }
 
