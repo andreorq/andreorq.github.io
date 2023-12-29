@@ -1368,6 +1368,7 @@ cursor: pointer;
   border:none;
   background-color: white;
   transition: all 0.2s ease-in-out;
+  box-shadow: 0 8px 40px rgba(255, 255, 255, 0.24), inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
   color: black;
   margin-right: 10px;
 }
@@ -1382,13 +1383,13 @@ cursor: pointer;
 
 .btns34 #btns342nd  {
   border: 2px solid #ffffff;
-
+  box-shadow: 0 8px 40px rgba(255, 255, 255, 0.24), inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
   transition: all 0.2s ease-in-out;
 }
 
 .btns34 #btns342nd:hover  {
   border: 2px solid rgba(40,40,255);
-  
+  border: 2px solid rgba(255, 255, 255, 0.582);
 }
 .thing341st {
   display: flex;
