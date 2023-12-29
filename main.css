@@ -1818,14 +1818,16 @@ padding: 70px 7vw 70px 7vw;
 }
 
 .grid-item36 img {
-  width: 35px;
-  height: 35px;
+  width: 26px;
+  height: 26px;
   padding: 17px;
   border-radius: 20%;
   background-color: rgb(34, 118, 197); /* Adjust as needed */
   margin-bottom: 30px;
    background: linear-gradient(to left, #e2d3b6, rgb(198, 198, 221));
    background: linear-gradient(to left, #b6c9e2, rgb(198, 198, 221));
+  background: linear-gradient(to bottom, #3584eb, rgb(95, 166, 248));
+  box-shadow: 0 8px 40px rgba(0, 89, 222, 0.479), inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
   transition: all 0.2s ease-in-out;
 }
 
