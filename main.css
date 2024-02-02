@@ -1829,6 +1829,8 @@ padding: 70px 7vw 70px 7vw;
    background: linear-gradient(to left, #b6c9e2, rgb(198, 198, 221));
   background: linear-gradient(to bottom, #3584eb, rgb(95, 166, 248));
   box-shadow: 0 8px 40px rgba(0, 89, 222, 0.479), inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
+  background: linear-gradient(86.31deg, #06f, #015ce4);
+  box-shadow: 0 8px 40px #004ec3, inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
   transition: all 0.2s ease-in-out;
 }
 
