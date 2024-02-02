@@ -1213,6 +1213,7 @@ cursor: pointer;
   text-align: center;
   background-color: rgb(33, 33, 33);
   background: linear-gradient(to top, rgb(33, 33, 33),rgb(58, 58, 58), rgb(33, 33, 33) );
+  background: linear-gradient(to bottom, rgb(33, 33, 33), #19306e  );
   padding-top: 100px;
   padding-bottom: 40px;
   margin-top: 100px;
