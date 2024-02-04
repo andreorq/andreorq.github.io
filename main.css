@@ -178,7 +178,7 @@ nav2.sticky {
 }
 
 .nav-menu.active {
-  /*top: 75px;*/
+  top: 90px;
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
