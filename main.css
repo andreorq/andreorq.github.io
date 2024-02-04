@@ -2623,11 +2623,7 @@ position: relative;
   width: 17px;
 }
 
-@media only screen and (max-width: 769px) {
-  .sec37 a {
-    font-size: 10px;
-  }
-}
+
 
 
 .sec37 a span {
@@ -2648,11 +2644,7 @@ font-weight: lighter;
 line-height: 78px;
 }
 
-@media only screen and (max-width: 769px) {
-  .sec37 h1 {
-    font-size: 40px;
-  }
-}
+
 
 .sec37  p {
   color: rgba(255, 255, 255, 0.808);
