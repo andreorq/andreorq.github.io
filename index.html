@@ -58,13 +58,53 @@
      
     
     <div class="fill">
-       
+
+
+
+ <div class="nav133" id="nav133">
+        <div class="logo2">
+            <!-- Your logo goes here -->
+            <img src="images/dishiftlgr.png" alt="Your Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a  onclick="scrollToSection(event, 'aboutus')" style="cursor: pointer;">About us</a></li>
+            <li><a onclick="scrollToSection(event, 'services')" style="cursor: pointer;">Services</a></li>
+            <li><a onclick="scrollToSection(event, 'contact')" style="cursor: pointer;">Contact us</a></li>
+            <li><a id="lasr133" style="cursor: pointer;" onclick="scrollToSection(event, 'book')">Book a Free Call</a></li>
+        </ul>
+    </div>
+    
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var nav133 = document.getElementById('nav133');
+        var lastScrollTop = 0;
+  
+        window.addEventListener("scroll", function () {
+          var st = window.pageYOffset || document.documentElement.scrollTop;
+  
+          if (st > lastScrollTop && st > window.innerHeight / 2) {
+            nav133.style.transform = "translateY(-100%)";
+          } else {
+            nav133.style.transform = "translateY(0)";
+          }
+  
+
+          lastScrollTop = st <= 0 ? 0 : st;
+        });
+      });
+  
+
+    </script>
+
+<script src="r.js"></script>
+         
         <header>
    
 
 
   
-            <nav class="nav3">
+           <!-- <nav class="nav3">
                <a href="https://dishift.com/" class="logo1"><img src="images/dishiftlgr.png" alt=""></a>
                
 
@@ -80,7 +120,7 @@
 
                 </ul>
 
-            </nav>
+            </nav>-->
 
 
          
@@ -133,21 +173,11 @@ document.querySelectorAll(".nav-link").forEach((n) => {
 
         
 
-<button id="scrollBtn">
-  <svg fill="#181616" width="15px" height="15px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  
-  <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-  
-  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-  
-  <g id="SVGRepo_iconCarrier"> <path d="M0.256 23.481c0 0.269 0.106 0.544 0.313 0.75 0.412 0.413 1.087 0.413 1.5 0l14.119-14.119 13.913 13.912c0.413 0.413 1.087 0.413 1.5 0s0.413-1.087 0-1.5l-14.663-14.669c-0.413-0.412-1.088-0.412-1.5 0l-14.869 14.869c-0.213 0.212-0.313 0.481-0.313 0.756z"/> </g>
-  
-  </svg></button>
-<script src="r.js"></script>
 
 
 
-<div class="sec13">
+
+<!--<div class="sec13">
 
     <div class="card13">
 
@@ -178,13 +208,39 @@ document.querySelectorAll(".nav-link").forEach((n) => {
 
     </div>
 
+</div>-->
+
+
+
+<div class="sec37">
+
+
+
+  
+  <div class="marc37"><a  onclick="scrollToSection(event, 'learnMore')">The power of good digital management... <span>|</span> Learn more </a> 
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_429_11260)"> <path d="M12 19L12 5" stroke="#ffffff" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12L12 19L19 12" stroke="#ffffff" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_429_11260"> <rect width="24" height="24" fill="white"></rect> </clipPath> </defs> </g></svg>
+ </div> <h1>We Help Your Business Get More Customers Online</h1>
+  <p>Leverage Your Business by Attracting New Customers and Supercharging Sales. We Create a Bespoke Marketing System, Uniquely Tailored to Your Business, and Drive Sustainable Revenue Growth in a Safe, Measurable, and Enduring Manner.</p>
+
 </div>
 
 
+
+             
  </header>
 
 
-
+<button id="scrollBtn">
+  <svg fill="#181616" width="15px" height="15px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  
+  <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+  
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <g id="SVGRepo_iconCarrier"> <path d="M0.256 23.481c0 0.269 0.106 0.544 0.313 0.75 0.412 0.413 1.087 0.413 1.5 0l14.119-14.119 13.913 13.912c0.413 0.413 1.087 0.413 1.5 0s0.413-1.087 0-1.5l-14.663-14.669c-0.413-0.412-1.088-0.412-1.5 0l-14.869 14.869c-0.213 0.212-0.313 0.481-0.313 0.756z"/> </g>
+  
+  </svg></button>
+<script src="r.js"></script>
  
 
 
