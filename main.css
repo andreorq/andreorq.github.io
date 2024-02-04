@@ -2644,6 +2644,11 @@ font-weight: lighter;
 line-height: 78px;
 }
 
+@media only screen and (max-width: 769px) {
+  .sec37 h1 {
+    font-size: 40px;
+  }
+}
 
 
 .sec37  p {
