@@ -2623,6 +2623,13 @@ position: relative;
   width: 17px;
 }
 
+@media only screen and (max-width: 769px) {
+  .sec37 a {
+    font-size: 12px;
+  }
+}
+
+
 .sec37 a span {
   padding-right: 7px;
   padding-left: 7px;
@@ -2639,6 +2646,12 @@ background-clip: text;
 font-family: 'poppins';
 font-weight: lighter;
 line-height: 78px;
+}
+
+@media only screen and (max-width: 769px) {
+  .sec37 h1 {
+    font-size: 50px;
+  }
 }
 
 .sec37  p {
