@@ -2398,10 +2398,7 @@ padding: 70px 7vw 70px 7vw;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .cards23 {
-    -moz-column-count: none;
-         column-count: none;
-  }
+ 
 .card23 {
   cursor: default;
 }
