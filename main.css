@@ -2340,7 +2340,8 @@ padding: 70px 7vw 70px 7vw;
   border-radius: 30px;
   background-color: #0C0417;
   background-color: #060d0d;
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;
+  /*box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;*/
+  box-shadow: 0 8px 40px #004ec3, inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
   transition: all 0.2s ease-in-out;
   background-color: #181616;
   background: linear-gradient(60deg, #01ccf9 -44.04%, #183bf5 33.31%, #1759ff 101.07%), #094af1;
@@ -2354,7 +2355,7 @@ padding: 70px 7vw 70px 7vw;
 .card23:hover {
   translate: 0px -5px;
   background: linear-gradient(60deg, #1759ff -44.04%, #183bf5 33.31%, #0175f9 101.07%), #094af1;
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;
+  /*box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;*/
 }
 
 .card23 img {
@@ -3180,13 +3181,14 @@ margin-top: 0px;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;
+    /*box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1) !important;*/
+    box-shadow: 0 8px 40px #004ec3, inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
     transition: all ease-in-out 0.2s;
   }
   .bluecard2:hover {
     translate: 0px -3px;
     background: linear-gradient(60deg, #1759ff -44.04%, #183bf5 33.31%, #0175f9 101.07%), #094af1;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;
+    /*box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;*/
   }
   .bluecard2 h1 {
     color: white;
