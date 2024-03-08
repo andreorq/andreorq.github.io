@@ -1912,8 +1912,8 @@ padding: 70px 7vw 70px 7vw;
 }
 
 .grid-item36 img {
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height: 38px;
   padding: 12px;
   border-radius: 30%;
   background-color: rgb(34, 118, 197); /* Adjust as needed */
@@ -3270,7 +3270,7 @@ margin-top: 0px;
   .bluecard2:hover {
     translate: 0px -3px;
     background: linear-gradient(60deg, #1759ff -44.04%, #183bf5 33.31%, #0175f9 101.07%), #094af1;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;
+    /*box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.15) !important;*/
   }
   .bluecard2 h1 {
     color: white;
