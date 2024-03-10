@@ -3231,6 +3231,7 @@ margin-top: 0px;
   .bluecard2 {
     /*background: linear-gradient(320deg, #094af1 0%, #183bf5 100%);*/
         background: linear-gradient(60deg, #01ccf9 -44.04%, #183bf5 33.31%, #1759ff 101.07%), #094af1;
+    box-shadow: 0 8px 40px #004ec3, inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
 
     padding: 5vw;
     display: block;
@@ -3248,6 +3249,7 @@ margin-top: 0px;
   .bluecard2 {
     /*background-color: #4353ff;*/
         background: linear-gradient(60deg, #01ccf9 -44.04%, #183bf5 33.31%, #1759ff 101.07%), #094af1;
+    box-shadow: 0 8px 40px #004ec3, inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
 
     padding: 5vw;
   }
@@ -3260,6 +3262,7 @@ margin-top: 0px;
   }
   .bluecard2 {
     background: linear-gradient(60deg, #01ccf9 -44.04%, #183bf5 33.31%, #1759ff 101.07%), #094af1;
+    box-shadow: 0 8px 40px #004ec3, inset 8px 8px 16px rgba(255, 255, 255, .08), inset 0 0 24px rgba(255, 255, 255, .08);
     border-radius: 5px;
     padding-top: 40px;
     padding-left: 40px;
