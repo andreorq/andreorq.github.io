@@ -524,7 +524,7 @@ background-color: rgba(4, 7, 24, 0.5);
   transform: translateX(-50%);
   background-color: #f0f0f0;
   background-color: #0000006b;
-  /*border: 0.1px solid rgba(255, 255, 255, 0.103);*/
+  border: 0.1px solid rgba(255, 255, 255, 0.103);
 color: rgb(255, 255, 255);
 font-family: Helvetica, Arial,  sans-serif;
 font-size: 13px;
